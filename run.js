@@ -22,7 +22,7 @@ function readEnv(key, defaultVal) {
 let config = {
   username: readEnv('CARELINK_USERNAME'),
   password: readEnv('CARELINK_PASSWORD'),
-  nsHost: readEnv('WEBSITE_HOSTNAME'),
+  nsHost: readEnv('MY_APP_HOSTNAME'),
   nsBaseUrl: null,
   nsSecret: readEnv('API_SECRET'),
   sgvLimit: 24,
